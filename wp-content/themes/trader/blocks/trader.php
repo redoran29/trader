@@ -2,7 +2,7 @@
 function true_load_posts(){
     echo $today = date("Y.m.d, G:i:s");
     global $wpdb;
-    $query = $wpdb->get_results("SELECT * FROM wp_trader WHERE symbol = 'BTC'");
+    $query = $wpdb->get_results("SELECT * FROM wp_trader");
     echo '<pre>';
     print_r($query);
     echo '</pre>';
