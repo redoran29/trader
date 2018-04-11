@@ -1,0 +1,22 @@
+2018-03-22T14:04:21+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /Users/redoran/Wordpress/sle(template)/wp-admin/includes/file.php:1767
+Stack trace:
+#0 /Users/redoran/Wordpress/sle(template)/wp-content/plugins/trx_utils/includes/plugin.files.php(267): request_filesystem_credentials('http://cleanwor...', 'ftpext', false, false, Array)
+#1 /Users/redoran/Wordpress/sle(template)/wp-includes/class-wp-hook.php(286): trx_utils_init_filesystem('')
+#2 /Users/redoran/Wordpress/sle(template)/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Users/redoran/Wordpress/sle(template)/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Users/redoran/Wordpress/sle(template)/wp-settings.php(434): do_action('after_setup_the...')
+#5 /Users/redoran/Wordpress/sle(template)/wp-config.php(89): require_once('/Users/redoran/...')
+#6 /Users/redoran/Wordpress/sle(template)/wp-load.php(37): require_once('/Users/redoran/...')
+#7 /Users/redoran/Wordpress/sle(template)/wp-admin/admin-ajax.php(22): require_once('/Us
+
+2018-03-22T14:04:48+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /Users/redoran/Wordpress/sle(template)/wp-admin/includes/file.php:1767
+Stack trace:
+#0 /Users/redoran/Wordpress/sle(template)/wp-content/plugins/trx_utils/includes/plugin.files.php(267): request_filesystem_credentials('http://cleanwor...', 'ftpext', false, false, Array)
+#1 /Users/redoran/Wordpress/sle(template)/wp-includes/class-wp-hook.php(286): trx_utils_init_filesystem('')
+#2 /Users/redoran/Wordpress/sle(template)/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Users/redoran/Wordpress/sle(template)/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Users/redoran/Wordpress/sle(template)/wp-settings.php(434): do_action('after_setup_the...')
+#5 /Users/redoran/Wordpress/sle(template)/wp-config.php(89): require_once('/Users/redoran/...')
+#6 /Users/redoran/Wordpress/sle(template)/wp-load.php(37): require_once('/Users/redoran/...')
+#7 /Users/redoran/Wordpress/sle(template)/wp-admin/admin-ajax.php(22): require_once('/Us
+
